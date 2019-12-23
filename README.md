@@ -1,6 +1,6 @@
 # react-calculator
 
-TODO: Put more badges here.
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > A simple app that performs arithmetic operation bases on inputs and symbols
 
@@ -8,12 +8,15 @@ TODO: Fill out this long description.
 
 ## Table of Contents
 
+- [Live Demo](#livedemo)
 - [Background](#background)
 - [Install](#install)
-- [Usage](#usage)
 - [Maintainers](#maintainers)
-- [Contributing](#contributing)
 - [License](#license)
+
+## Live Demo
+
+>Live version can be found in [Live](https://minimagic-calculator.herokuapp.com/) 
 
 ## Background
 Simple calculator built using React. Management of states are simple and passed from main App component downstream to children components.
