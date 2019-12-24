@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = (props) => {
-  const {name} = props;
-  return <button>{props.name}</button>;
+  const { name } = props;
+  return <button>{ name }</button>;
 };
 
 Button.ropTypes = {
