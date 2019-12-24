@@ -1,5 +1,6 @@
 import React from 'react';
 import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
 /* eslint-disable-next-line react/prefer-stateless-function */
 class App extends React.Component {
@@ -7,6 +8,7 @@ class App extends React.Component {
     return (
       <div id="app">
         <Display result="5" />
+        <ButtonPanel />
       </div>
     );
   }

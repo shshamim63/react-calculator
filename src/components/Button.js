@@ -5,7 +5,7 @@ const Button = (props) => {
   return <button>{props.name}</button>;
 };
 
-Button.PropTypes = {
+Button.propTypes = {
   name: PropTypes.string.isRequired
 }
 export default Button;
