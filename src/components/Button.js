@@ -6,7 +6,7 @@ const Button = (props) => {
   return <button type="button">{ name }</button>;
 };
 
-Button.ropTypes = {
+Button.propTypes = {
   name: PropTypes.string.isRequired
-}
+};
 export default Button;
