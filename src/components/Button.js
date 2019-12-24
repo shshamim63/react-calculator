@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Button = (props) => {
   const { name } = props;
-  return <button>{ name }</button>;
+  return <button type="button">{ name }</button>;
 };
 
 Button.ropTypes = {
