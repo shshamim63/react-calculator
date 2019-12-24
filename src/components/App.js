@@ -2,7 +2,9 @@ import React from 'react';
 
 class App extends React.Component {
   render() {
-    return <div>App starts</div>;
-  }   
+    return (
+      <div>App starts</div>
+    );
+  }
 }
 export default App;
