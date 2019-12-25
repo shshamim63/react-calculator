@@ -1,4 +1,16 @@
+@font-face {
+  font-family: 'digital-7';
+  src: url('../../fonts/digital-7/digital-7.ttf');
+}
+html {
+  font-family: 'digital-7';
+}
 #app {
   width: 700px;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  border: double;
 }

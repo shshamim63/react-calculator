@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'digital-7';
-  src: url('../../fonts/digital-7/digital-7.ttf');
-}
 .display {
   height: 100px;
   background: $dark-grey;
-  color: $white;
-  font-family: 'digital-7';
+  color: $white;  
   padding: 1% 1%;
   border: double;
 }

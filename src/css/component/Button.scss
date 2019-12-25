@@ -1,0 +1,29 @@
+.normal-class {
+  width: 25%;
+}
+.wide-class {
+  width: 50%;
+}
+.btn {
+  background: $off-white;
+  color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.97) translate3d(0.5px, 0.8px, 0.5px);
+  box-shadow: -1px 1px -7px $dark-grey;
+}
+
+.operator {
+  background: $orange;
+  color: $off-white;
+}

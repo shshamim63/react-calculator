@@ -12,7 +12,14 @@ const ButtonPanel = () => {
     <div id="button-panel">
       {rows.map(row => (
         <div className="row" key={row}>
-          {row.map(char => <Button name={String(char)} key={char} />)}
+          {row.map(char => (
+            <Button
+              key={char}
+              name={String(char)}
+              color={['+', '-', 'X', '/', '='].includes(char)}
+              wide={char === 0}
+            />
+          ))}
         </div>
       ))}
     </div>
