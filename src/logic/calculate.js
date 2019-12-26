@@ -10,6 +10,9 @@ const invertNumber = (text) => {
 const calculate = ({ total, next, operation }, btnName) => {
   switch (btnName) {
     case 'AC':
+      total = '0';
+      next = '';
+      operation = '';
       break;
     case '=':
       break;
