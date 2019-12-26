@@ -15,6 +15,10 @@ const calculate = ({ total, next, operation }, btnName) => {
       operation = '';
       break;
     case '=':
+      total = operation ? operate(total, next, operation) : next;
+      next = '0';
+      operation = '';
+      if (total === 'Error') total = '0';
       break;
     case '+/-':
       if (next) {
