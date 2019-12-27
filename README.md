@@ -16,7 +16,7 @@ TODO: Fill out this long description.
 
 ## Live Demo
 
->Live version can be found in [Live](https://minimagic-calculator.herokuapp.com/) 
+>Live version can be found in [Live](https://compassionate-turing-52a099.netlify.com) 
 
 ## Background
 Simple calculator built using React. Management of states are simple and passed from main App component downstream to children components.
