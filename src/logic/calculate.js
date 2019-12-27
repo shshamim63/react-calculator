@@ -57,7 +57,7 @@ const calculate = ({
     case '+/-':
       next = invertNumber(next);
       operation = '';
-      renderResult = true;
+      renderResult = false;
       break;
     case '/':
     case 'X':
