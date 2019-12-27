@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unused-state */
+/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -14,15 +16,16 @@ class App extends React.Component {
       errorOccurance: false,
     };
   }
+
   handleClick = (btnName) => {
-    this.setState(prevState => calculate(prevState, btnName));
+    this.setState((prevState) => calculate(prevState, btnName));
   }
 
   render() {
     return (
       <div id="app">
-        <Display result={ this.state.next } operator ={ this.state.operation }/>
-        <ButtonPanel clickHandler={this.handleClick}/>
+        <Display result={this.state.next} operator={this.state.operation} />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
