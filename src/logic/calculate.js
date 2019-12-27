@@ -36,19 +36,18 @@ const calculate = ({
     case '=':
       if (!renderResult) {
         total = operation ? operate(total, next, operation) : next;
-        next = '0';
+        next = total;
         operation = '';
         renderResult = true;
         if (total === 'Error') total = '0';
       }
       break;
     case '+/-':
-      if (next) {
+      if (!renderResult) {
         next = invertNumber(next);
-      } else {
-        total = invertNumber(next);
       }
       operation = '';
+      renderResult = true;
       break;
     case '/':
     case 'x':
@@ -57,7 +56,7 @@ const calculate = ({
     case '%':
       if (!renderResult) {
         total = operation ? operate(total, next, operation) : next;
-        next = '0';
+        next = total;
         operation = btnName;
         renderResult = true;
         if (total === 'Error') {
