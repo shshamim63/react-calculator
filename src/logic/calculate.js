@@ -1,3 +1,5 @@
+import operate from './operate';
+
 const attatchButton = (target, adder) => {
   const splitTarget = target.split('');
   if (adder === '.' && splitTarget.includes(adder)) {
