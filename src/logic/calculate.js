@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import operate from './operate';
 
 const attatchButton = (target, adder) => {
@@ -47,7 +48,6 @@ const calculate = ({
         next = total;
         renderResult = true;
         if (total === 'Infinity') {
-          console.log('I am at =');
           total = '0';
           errorOccurance = true;
         }
@@ -70,7 +70,6 @@ const calculate = ({
         renderResult = true;
       }
       if (total === 'Infinity') {
-        console.log('I am here / +');
         total = '0';
         operation = '';
         errorOccurance = true;

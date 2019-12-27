@@ -12,9 +12,9 @@ const ButtonPanel = (props) => {
   const rows = [firstrowChars, secondRowChars, thirdRowChars, fourthRowChars, fifthRowChars];
   return (
     <div id="button-panel">
-      {rows.map((row) => (
+      {rows.map(row => (
         <div className="row" key={row}>
-          {row.map((char) => (
+          {row.map(char => (
             <Button
               key={char}
               name={String(char)}
