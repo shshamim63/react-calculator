@@ -14,7 +14,7 @@ const operate = (numberOne, numberTwo, operation) => {
       res = Big(numberOne).times(numberTwo).toString();
       break;
     case '/':
-      res = numberTwo === '0' ? res = 'Infinity' : Big(numberOne).div(numberTwo).toString();
+      res = numberTwo === '0' ? 'Infinity' : Big(numberOne).div(numberTwo).toString();
       break;
     case '%':
       res = Big(numberOne).div('100').times(numberTwo).toString();
