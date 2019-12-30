@@ -4,8 +4,6 @@
 
 > A simple app that performs arithmetic operation bases on inputs and symbols
 
-TODO: Fill out this long description.
-
 ## Table of Contents
 
 - [Live Demo](#livedemo)
