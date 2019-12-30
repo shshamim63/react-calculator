@@ -1,0 +1,25 @@
+.display {
+  height: 100px;
+  background: $dark-grey;
+  color: $white;  
+  padding: 1% 1%;
+  border: double;
+}
+.symbol {
+  padding: 0 0 0 0;
+  align-items: center;
+  display: flex;
+  flex: 1 100%;
+  justify-content: flex-end;
+  height: 20%;
+}
+.result {
+  padding-top: 3%;
+  align-items: center;
+  display: flex;
+  flex: 1 100%;
+  justify-content: flex-end;
+  height: 65%;
+  font-weight: bold;
+  font-size: 55px;
+}
