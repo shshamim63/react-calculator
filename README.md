@@ -4,6 +4,7 @@
 
 > A simple app that performs arithmetic operation bases on inputs and symbols
 
+![calculator](calculator.png)
 ## Table of Contents
 
 - [Live Demo](#livedemo)
@@ -28,31 +29,30 @@ Simple calculator built using React. Management of states are simple and passed 
 
 ## Prerequisites
 - Device must have installed nodejs. You can install it from [here](https://nodejs.org/en/).
-- Need to install npm package create-react-app. By using `npm install g create-react-app` command you can install it in your machine globally.
+
 ## Install
 
 Open terminal and perform the operation sequentially.
-```
+
 1. Clone the repository `git clone git@github.com:shshamim63/react-calculator.git`
 2. Get into the repository `cd react-calculator`
 3. Install the dependencies on node_module
-  - With npm - `npm install`
+  - With npm - `npm install` <br>
   OR
   - With yarn - `yarn install`
 4. To start the project `yarn start` or `npm start`
-```
 ## Deployment
 - To create an optimized production(build)
-  -- With npm - `npm run build`
-  OR
+  - With npm - `npm run build`
+  <br>OR
   - With yarn - `yarn run build`
 
 ## Maintainers
 👤 **Shakhawat Hossain**
 
-- Github: [@githubhandle](https://github.com/shshamim63)
-- Twitter: [@twitterhandle](https://twitter.com/Shshamim090)
-- Linkedin: [linkedin](https://www.linkedin.com/in/shakhawathossainshamim/)
+- Github: [@shshamim63](https://github.com/shshamim63)
+- Twitter: [@Shshamim090](https://twitter.com/Shshamim090)
+- Linkedin: [shakhawathossainshamim](https://www.linkedin.com/in/shakhawathossainshamim/)
 
 ## 🤝 Contributing
 
