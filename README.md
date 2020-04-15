@@ -7,12 +7,13 @@
 ![calculator](calculator.png)
 ## Table of Contents
 
-- [Live Demo](#livedemo)
+- [Live Demo](#live-demo)
 - [Background](#background)
-- [Built With](#buildwith)
+- [Built With](#build-with)
 - [Prerequisites](#Prerequisites)
 - [Install](#install)
 - [Deployment](#deployment)
+- [Potential Future Feature](#potential-future-feature)
 - [Maintainers](#maintainers)
 - [License](#license)
 
@@ -47,6 +48,11 @@ Open terminal and perform the operation sequentially.
   <br>OR
   - With yarn - `yarn run build`
 
+## Potential Future Feature
+
+- Improve the current User Interface
+- Add more arithmetic operations
+
 ## Maintainers
 👤 **Shakhawat Hossain**
 
@@ -54,14 +60,15 @@ Open terminal and perform the operation sequentially.
 - Twitter: [@Shshamim090](https://twitter.com/Shshamim090)
 - Linkedin: [shakhawathossainshamim](https://www.linkedin.com/in/shakhawathossainshamim/)
 
-## 🤝 Contributing
+## Contributing
+🤝 PRs accepted. 
+1. Fork it (https://github.com/shshamim63/react-calculator)
+2. Create your feature branch (git checkout -b feature/[choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[chosen-name])
+5. Create a new Pull Request
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-___
-PRs accepted.
-___
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## Show your support
 
